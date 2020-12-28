@@ -1,9 +1,9 @@
 terraform {
     backend "s3"{
     encrypt = true
-    bucket = "terraform-state-storage-s3-practice"
+    bucket = "terraformtrainin"
     dynamodb_table = "test"
-    region = "eu-central-1"
+    region = "us-west-2"
     key = "terraform.tfstate"   
 
     }
